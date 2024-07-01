@@ -10,11 +10,25 @@ The system has been tested with Ubuntu-20.04 and Python3.9. Install the followin
 apt-get install libgl1-mesa-glx libx11-dev ldconfig
 ```
 
-For the installation of the python package simply clone the repo and pip install it.
+For the installation of the python package simply clone the repo 
 
 ```sh
 git clone git@github.com:PRBonn/LocNDF.git
+```
+
+Creating and activating a virtual environment:
+
+```sh
 cd LocNDF
+python3 -m venv locndf-env
+source locndf-env/bin/activate
+# to deactivate use `deactivate`
+```
+
+and pip install it.
+
+```sh
+pip install -r requirements.txt
 pip install .
 ```
 
