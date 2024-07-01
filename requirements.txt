@@ -3,10 +3,12 @@ tqdm
 scikit_image
 easydict
 open3d
-numpy
+numpy==1.26.4
 Click
 natsort
 matplotlib
 pytorch_lightning
 PyYAML
 scipy
+tensorboard 
+tensorboardX
